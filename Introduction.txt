@@ -1,0 +1,41 @@
+Python dev by : Guido van Rossum (1991)
+Latest python version : 3.9.2
+
+Python ! Compiled or interpreted ?
+Python is both! 
+1st it checks for syntax line by line then it converts code into Bytecode(Compiled python) 
+ie .pyc file and finally pass this file to interpretor and execute code line by line.
+
+A Hello world code :
+name = input("Whats ur name ?")
+print("Hello" + name)
+
+Python 2 vs Python 3 (2008)
+1) Division operator : 
+py3 always gives floating point as result.
+py2 will give nearest integer as result!
+
+2) Print function :
+py3 : print() is a function!
+py2 : print is a keyword!
+
+3) Unicode :
+py3 str implicit type is Unicode
+py2 str implicit type is ASCII
+
+4) xrange :
+py3 :xrange is named range()
+py2 :xrange() returns an iterator object! and range will provide a static list!
+
+5) Error handling :
+py3 : as keyword is required!
+
+try:
+    pass
+except NameError as ne:
+    pass
+
+py2 : normal , works on place of as!
+
+---------------------------------------------------------------------------------------------------------------------------------------
+
